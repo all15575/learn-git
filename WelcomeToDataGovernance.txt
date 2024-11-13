@@ -1,5 +1,14 @@
 Welcome to Data Governance 101.
 
+Use Git Like a Pro 
+
+Agenda
+1. Overview of Git and Setting up Git and creating Repo
+2. Basic commands (status, pull , push, commit, checkout)
+3. Commits, Branches, PRs and Tags
+4. Undo mistakes in Git
+5. Interactive rebase , merging vs rebase , Git Aliases
+
 Learn Git - commonly used commands
 
 Command	Description
