@@ -1,1 +1,14 @@
 Welcome to Data Governance 101.
+
+Learn Git - commonly used commands
+
+Command	Description
+git --version	Displays the installed version of Git.
+git status	Shows the current status of the working directory and staging area.
+git add .	Stages all changes (new, modified, and deleted files) in the current directory.
+git commit -m 'your message goes here'	Commits the staged changes with a message provided between the quotes.
+.gitignore	A file specifying which files and directories to ignore in a Git repository.
+git commit: This command is used to save your changes to the local repository.
+-a: This flag tells Git to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
+-m 'your message goes here': This flag allows you to include a commit message directly from the command line, without opening an editor.
+So, git commit -am 'your message goes here' stages all modified and deleted files, and then commits them with the message you provided. It’s a convenient way to quickly commit changes without having to manually stage each file.
