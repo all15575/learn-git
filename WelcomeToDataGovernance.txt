@@ -25,3 +25,12 @@ So, git commit -am 'your message goes here' stages all modified and deleted file
 git remote -v
 origin  https://github.com/all15575/learn-git.git (fetch)
 origin  https://github.com/all15575/learn-git.git (push)
+
+git branch -M main Change the name of the branch to main
+
+git push -u origin main Push the local commits to the remote repository.
+The command git push -u origin is used to push your local commits to a remote repository. Here’s a breakdown of what each part does:
+git push: This command uploads your local repository content to a remote repository.
+-u: This flag sets the upstream (tracking) reference for the current branch, meaning future git push commands can be run without specifying the remote and branch.
+origin: This is the default name for the remote repository that you are pushing to.
+So, git push -u origin pushes your changes to the remote repository named origin and sets it as the default upstream repository for the current branch.
