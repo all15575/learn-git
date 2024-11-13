@@ -21,3 +21,7 @@ git commit: This command is used to save your changes to the local repository.
 -a: This flag tells Git to automatically stage files that have been modified and deleted, but new files you have not told Git about are not affected.
 -m 'your message goes here': This flag allows you to include a commit message directly from the command line, without opening an editor.
 So, git commit -am 'your message goes here' stages all modified and deleted files, and then commits them with the message you provided. It’s a convenient way to quickly commit changes without having to manually stage each file.
+
+git remote -v
+origin  https://github.com/all15575/learn-git.git (fetch)
+origin  https://github.com/all15575/learn-git.git (push)
